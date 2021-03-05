@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 205px;
+  width: 220px;
+  top: 30%;
+  left: 40%;
+  position: absolute;
+  display: flex;
+}
+
+.eye-left,
+.eye-right {
+  height: 205px;
+  width: 110px;
+  background-color: #fff;
+  border: 15px solid #000;
+  border-radius: 110px;
+  position: relative;
+}
+
+.eyeball {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  background-color: #000;
+  border-radius: 50%;
+  bottom: 25px;
+  left: 0;
+}
+
+.pupil {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  bottom: 35px;
+  left: 38px;
+}
